@@ -33,10 +33,10 @@ Demonstrar na prática:
 
 ### 🔹 Rodando localmente
 
-```bash
+´´´ bash
 npm install
 node app.js
-```
+´´´
 
 Acesse: http://localhost:3000/tasks
 
