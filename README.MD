@@ -37,7 +37,7 @@ Demonstrar na prática:
 - npm install
 - node app.js
 
-Acesse: "http://localhost:3000/tasks"``
+Acesse: \"http://localhost:3000/tasks"
 
 ---
 
@@ -46,7 +46,7 @@ Acesse: "http://localhost:3000/tasks"``
 docker build -t devops-app .
 docker run -p 3000:3000 devops-app
 
-Acesse: "http://localhost:3000/tasks"``
+Acesse: \"http://localhost:3000/tasks"
 
 ---
 
