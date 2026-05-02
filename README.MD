@@ -39,23 +39,25 @@ node app.js
 
 Acesse: http://localhost:3000/tasks
 
-🔹 Rodando com Docker
+###🔹 Rodando com Docker
 docker build -t devops-app .
 docker run -p 3000:3000 devops-app
 
 Acesse: http://localhost:3000/tasks
 
-⚙️ CI/CD
+##⚙️ CI/CD
 
 O projeto possui pipeline configurado com GitHub Actions, que executa automaticamente:
 
 Instalação de dependências
 Execução da aplicação (teste simples)
-🚧 Melhorias futuras
-Adicionar banco de dados
-Criar testes automatizados
-Implementar deploy em cloud (AWS)
-Melhorar estrutura da API
-👨‍💻 Autor
+
+##🚧 Melhorias futuras
+- Adicionar banco de dados
+- Criar testes automatizados
+- Implementar deploy em cloud (AWS)
+- Melhorar estrutura da API
+
+##👨‍💻 Autor
 
 Desenvolvido por Paulo Douglas
