@@ -33,14 +33,16 @@ Demonstrar na prática:
 
 ### 🔹 Rodando localmente
 
-``` bash
+```bash
 npm install
 node app.js
-```
 
 Acesse: http://localhost:3000/tasks
 
+
+
 ###🔹 Rodando com Docker
+
 docker build -t devops-app .
 docker run -p 3000:3000 devops-app
 
@@ -54,6 +56,7 @@ Instalação de dependências
 Execução da aplicação (teste simples)
 
 ##🚧 Melhorias futuras
+
 - Adicionar banco de dados
 - Criar testes automatizados
 - Implementar deploy em cloud (AWS)
