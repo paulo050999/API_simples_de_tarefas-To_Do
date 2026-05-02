@@ -33,13 +33,13 @@ Demonstrar na prática:
 
 ### 🔹 Rodando localmente
 
-- bash
-npm install
-node app.js
+-- bash
+- npm install
+- node app.js
 
 Acesse: http://localhost:3000/tasks
 
-
+---
 
 ###🔹 Rodando com Docker
 
@@ -48,6 +48,8 @@ docker run -p 3000:3000 devops-app
 
 Acesse: http://localhost:3000/tasks
 
+---
+
 ##⚙️ CI/CD
 
 O projeto possui pipeline configurado com GitHub Actions, que executa automaticamente:
@@ -55,12 +57,16 @@ O projeto possui pipeline configurado com GitHub Actions, que executa automatica
 Instalação de dependências
 Execução da aplicação (teste simples)
 
+---
+
 ##🚧 Melhorias futuras
 
 - Adicionar banco de dados
 - Criar testes automatizados
 - Implementar deploy em cloud (AWS)
 - Melhorar estrutura da API
+
+---
 
 ##👨‍💻 Autor
 
